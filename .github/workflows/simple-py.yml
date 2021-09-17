@@ -3,20 +3,11 @@ name: Python Commands
 on: [push]
 
 jobs: 
-  run-shell-command:
-    runs-on: ubuntu-latest
+  run-windows-commands:
+    runs-on: windows-latest
     steps:
-      - name: echo a string
-        run: echo "Python application"
-      - name: multiline script
-        run: |
-          node -v
-          npm -v
-      - name: python greetings
-        run: print (" Hello from python!")
-        shell: python
-      - name: more python commands
-        run: |
-          import platform
-          print (platform.processor())        
-        shell: python 
+      - name: Directory PowerShell
+        run: Get-Location
+      - name: Directory Bash
+        run: pwd
+        shell: bash 
