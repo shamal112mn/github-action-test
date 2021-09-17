@@ -3,11 +3,10 @@ name: Python Commands
 on: [push]
 
 jobs: 
-  run-windows-commands:
-    runs-on: windows-latest
+  run-shell-command:
+    runs-on: ubuntu-latest
     steps:
-      - name: Directory PowerShell
-        run: Get-Location
-      - name: Directory Bash
-        run: pwd
-        shell: bash 
+      - name: print a string
+        run: print ("Hello from python!")
+        shell: python
+       
