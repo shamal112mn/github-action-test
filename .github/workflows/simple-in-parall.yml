@@ -1,0 +1,22 @@
+name: in Parall Commands
+
+on: [push]
+
+jobs: 
+  run-python-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print a string
+        run: print ("Hello from python!")
+        shell: python
+
+  run-bash-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "Hello world linux"
+      - name: multiline script
+        run: |
+          node -v
+          npm -v
+       
