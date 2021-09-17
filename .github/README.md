@@ -13,3 +13,6 @@ brew install gh
 
 Upgrade:
 brew upgrade gh
+
+gh commands
+https://cli.github.com/manual/
