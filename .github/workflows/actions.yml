@@ -15,7 +15,7 @@ jobs:
       - name: List files after Checkout
         run: |
           pwd
-          ls 
+          ls -la 
 
       - name: Simple JS Action
         id: greet
