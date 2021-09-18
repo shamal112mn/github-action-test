@@ -1,0 +1,12 @@
+name: Self-Hosted Python Commands
+
+on: [push]
+
+jobs: 
+  run-shell-command:
+    runs-on: self-hosted
+    steps:
+      - name: print a string
+        run: print ("Hello from Python 2.7 !")
+        shell: python
+       
