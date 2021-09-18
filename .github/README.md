@@ -1,16 +1,18 @@
+<a href="https://packetlife.net/media/library/16/Markdown.pdf"> Markdown check sheet</a>
+
+
 ### **Docs
 
-https://docs.github.com/en/actions/managing-workflow-runs#enabling-debug-logging
+### <a href="https://docs.github.com/en/actions/anaging-workflow-runs#enabling-debug-logging"> Enabling debuging </a>
 
-### **Enabling debuging
 
  <br>1. Setting -> Secrets -> add varaible:  
  <br> ACTIONS_RUNNER_DEBUG : true,
  <br> ACTIONS_STEP_DEBUG : true
 
-Github CLI
+***Github CLI
 
-### for Mac 
+###  <strong> for Mac </strong> 
 Install:
 <br>brew install gh
 
