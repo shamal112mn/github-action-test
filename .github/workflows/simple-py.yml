@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print a string
-        run: print ("Hello from python!")
+        run: print ("Hello from Python!")
         shell: python
        
