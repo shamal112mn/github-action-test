@@ -3,7 +3,7 @@ name: Self-Hosted Python Commands
 on: [push]
 
 jobs: 
-  run-shell-command:
+  run-python-onSelf-Hosted-command:
     runs-on: self-hosted
     steps:
       - name: print a string
