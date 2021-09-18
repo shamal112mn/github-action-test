@@ -17,9 +17,9 @@ Install:
 Upgrade:
 <br>brew upgrade gh
 
-gh commands:
-<br>https://cli.github.com/manual/
+ 
+<br> <a href="https://cli.github.com/manual/"> link to gh commands</a>
 
 
-more about github actions:
-<br>https://github.com/actions/checkout#usage
+
+<br> <a href="https://github.com/actions/checkout#usage"> source more about github actions </a>
