@@ -1,4 +1,4 @@
-name: Actions Workflow
+name: Postman Actions Workflow
 
 # on: [push, pull_request]
 on:
