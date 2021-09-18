@@ -1,21 +1,25 @@
-Docs
+### **Docs
 
 https://docs.github.com/en/actions/managing-workflow-runs#enabling-debug-logging
 
-Enabling debuging
+### **Enabling debuging
 
- 1 Setting -> Secrets -> add varaible  
- 
- ACTIONS_RUNNER_DEBUG : true, ACTIONS_STEP_DEBUG : true
+ <br>1. Setting -> Secrets -> add varaible:  
+ <br> ACTIONS_RUNNER_DEBUG : true,
+ <br> ACTIONS_STEP_DEBUG : true
 
-Github ClI
+Github CLI
 
 ### for Mac 
 Install:
-brew install gh
+<br>brew install gh
 
 Upgrade:
-brew upgrade gh
+<br>brew upgrade gh
 
-gh commands
-https://cli.github.com/manual/
+gh commands:
+<br>https://cli.github.com/manual/
+
+
+more about github actions:
+<br>https://github.com/actions/checkout#usage
